@@ -1,0 +1,24 @@
+{
+	"name":       "nick4fake/minifycss",
+	"type":       "library",
+	"description":"Library for minifying CSS files",
+	"license":    "MIT",
+	"authors":    [
+		{
+			"name": "Stephen Clay",
+			"email":"steve@mrclay.org"
+		},
+		{
+			"name": "Bogdan Yurov",
+			"email":"bogdan@yurov.me"
+		}
+	],
+	"require":    {
+		"php":">=5.3"
+	},
+	"autoload":   {
+		"psr-0":{
+			"MinifyCss":""
+		}
+	}
+}
